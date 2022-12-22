@@ -5,7 +5,7 @@ let i = 0
 let sum = 0
 
 while (i <= diceRollsNum){
-    const diceNum = Math.floor(Math.random()*7)
+    const diceNum = Math.floor((Math.random()*6)+1)
     document.querySelector('#dice_roll').innerHTML = `${diceNum}`
     sum = sum + diceNum
     i++
